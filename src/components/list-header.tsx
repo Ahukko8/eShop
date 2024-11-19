@@ -10,8 +10,9 @@ import {
 import React from "react";
 import { Link } from "expo-router";
 import { FontAwesome } from "@expo/vector-icons";
-import { CATEGORIES } from "@/assets/categories";
+// import { CATEGORIES } from "@/assets/categories";
 import { useCartStore } from "../store/cart-store";
+import { CATEGORIES } from "../../assets/categories";
 
 export const ListHeader = () => {
 

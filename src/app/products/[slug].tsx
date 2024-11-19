@@ -1,5 +1,4 @@
-import { PRODUCTS } from "@/assets/products";
-import { useCartStore } from "@/src/store/cart-store";
+
 import { Redirect, Stack, useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import {
@@ -11,6 +10,8 @@ import {
   View,
 } from "react-native";
 import { useToast } from "react-native-toast-notifications";
+import { PRODUCTS } from "../../../assets/products";
+import { useCartStore } from "../../store/cart-store";
 
 const ProductDetails = () => {
   const { slug } = useLocalSearchParams<{ slug: string }>();

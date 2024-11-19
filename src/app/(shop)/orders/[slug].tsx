@@ -1,7 +1,8 @@
 import { FlatList, Image, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { Redirect, Stack, useLocalSearchParams } from "expo-router";
-import { ORDERS } from "@/assets/orders";
+import { ORDERS } from "../../../../assets/orders";
+
 
 const OrderDetails = () => {
   const { slug } = useLocalSearchParams();

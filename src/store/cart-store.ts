@@ -1,5 +1,6 @@
-import { PRODUCTS } from "@/assets/products";
+
 import { create } from "zustand";
+import { PRODUCTS } from "../../assets/products";
 
 type CartItemType = {
   id: number;

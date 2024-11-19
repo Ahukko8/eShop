@@ -1,7 +1,7 @@
-import { PRODUCTS } from "@/assets/products";
-import { ListHeader } from "@/src/components/list-header";
-import { ProductListItem } from "@/src/components/product-list-item";
 import { FlatList, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { PRODUCTS } from "../../../assets/products";
+import { ListHeader } from "../../components/list-header";
+import { ProductListItem } from "../../components/product-list-item";
 
 const Home = () => {
   return (

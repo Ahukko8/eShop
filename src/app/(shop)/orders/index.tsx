@@ -1,7 +1,8 @@
 import { FlatList, ListRenderItem, Pressable, StyleSheet, Text, View } from 'react-native'
-import { ORDERS } from '@/assets/orders'
-import { Order, OrderStatus } from '@/assets/types/order'
+
 import { Link, Stack } from 'expo-router'
+import { Order, OrderStatus } from '../../../../assets/types/order'
+import { ORDERS } from '../../../../assets/orders'
 
 
 const statusDisplayText: Record<OrderStatus, string>  = {

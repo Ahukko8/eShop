@@ -1,8 +1,8 @@
 import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
 import {  Redirect, Stack, useLocalSearchParams } from 'expo-router'
-import { CATEGORIES } from '@/assets/categories';
-import { PRODUCTS } from '@/assets/products';
-import { ProductListItem } from '@/src/components/product-list-item';
+import { CATEGORIES } from '../../../assets/categories';
+import { PRODUCTS } from '../../../assets/products';
+import { ProductListItem } from '../../components/product-list-item';
 
 const Category = () => {
   const { slug } = useLocalSearchParams<{slug: string}>();
